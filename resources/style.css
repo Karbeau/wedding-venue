@@ -110,6 +110,7 @@ a {
   display: inline-flex;
   justify-content: space-between;
   padding: 0 1.5rem;
+  font-size: 1.25rem;
 }
 
 /*----- banner -----*/
@@ -182,7 +183,7 @@ a {
 }
 
 .list-item {
-  width: 18rem;
+  width: 22rem;
   height: 30rem;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-radius: 0.2rem;
@@ -197,6 +198,10 @@ a {
 .info {
   padding: 0 2rem;
   margin-bottom: 2rem;
+}
+
+.info p {
+  font-size: 1.25rem;
 }
 
 /*----- Our Team -----*/
@@ -220,12 +225,14 @@ a {
   padding: 0 5rem;
 }
 
-.employee.one {
+.employee {
   width: 17.5rem;
   height: 22.5rem;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-radius: 0.2rem;
+}
 
+.employee.one {
   background: linear-gradient(
     rgba(114, 114, 114, 0.5),
     rgba(114, 114, 114, 0.5)
@@ -238,11 +245,6 @@ a {
 }
 
 .employee.two {
-  width: 17.5rem;
-  height: 22.5rem;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  border-radius: 0.2rem;
-
   background: linear-gradient(
     rgba(114, 114, 114, 0.5),
     rgba(114, 114, 114, 0.5)
@@ -255,11 +257,6 @@ a {
 }
 
 .employee.three {
-  width: 17.5rem;
-  height: 22.5rem;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  border-radius: 0.2rem;
-
   background: linear-gradient(
     rgba(114, 114, 114, 0.5),
     rgba(114, 114, 114, 0.5)
@@ -271,7 +268,7 @@ a {
   justify-content: center;
 }
 
-.info h3, .info h4 {
+.info h3, .employee .info p {
   padding: 2rem;
   color: #EFF1EC;
   text-align: center;
