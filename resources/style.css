@@ -2,9 +2,9 @@
 
 @font-face {
   font-family: 'learning_curve';
-  src: url('/resources/Fonts/LearningCurve/learning_curve_regular_ot_tt-webfont.woff2') format('woff2'),
-         url('/resources/Fonts//LearningCurve/learning_curve_regular_ot_tt-webfont.woff') format('woff'),
-         url('/resources/Fonts/LearningCurve/learning_curve_regular_ot_tt.ttf');
+  src: url('Fonts/LearningCurve/learning_curve_regular_ot_tt-webfont.woff2') format('woff2'),
+         url('Fonts//LearningCurve/learning_curve_regular_ot_tt-webfont.woff') format('woff'),
+         url('Fonts/LearningCurve/learning_curve_regular_ot_tt.ttf');
   font-weight: normal;
   font-style: normal;
 }
